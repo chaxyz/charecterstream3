@@ -9,10 +9,14 @@ public class LAB5 {
         // read data from keyboard
         InputStreamReader in = new InputStreamReader(System.in);
         BufferedReader input = new BufferedReader(in);
-        System.out.print("Enter text : ");
+        
         try {
+            System.out.print("Enter text : ");
             String s = input.readLine();
             System.out.println(s);
+            System.out.print("Enter age : ");
+            String age = input.readLine();
+            System.out.println(age);
         } catch (IOException e) {
             e.printStackTrace();
         }
